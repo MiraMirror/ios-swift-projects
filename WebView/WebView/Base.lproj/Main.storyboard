@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JWJ-6E-euP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="549"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.90152774270000002" blue="0.91452661859999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2K-vN-vY2">
+                                <rect key="frame" x="247" y="562" width="107" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.90152774270000002" blue="0.91452661859999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oqY-0V-VS1"/>
+                                    <constraint firstAttribute="width" constant="100" id="xwF-Za-haG"/>
+                                </constraints>
+                                <state key="normal" title="View"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bl5-At-pf2">
+                                <rect key="frame" x="473" y="562" width="107" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.90152774270000002" blue="0.91452661859999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EUR-uL-Ciq"/>
+                                    <constraint firstAttribute="width" constant="100" id="TwX-pE-dir"/>
+                                </constraints>
+                                <state key="normal" title="View"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzW-77-jzK">
+                                <rect key="frame" x="20" y="562" width="107" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.90152774270000002" blue="0.91452661859999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RoS-7k-DHX"/>
+                                    <constraint firstAttribute="width" constant="100" id="sgP-H3-jAL"/>
+                                </constraints>
+                                <state key="normal" title="View"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JWJ-6E-euP" secondAttribute="trailing" id="1Qy-oU-FCu"/>
+                            <constraint firstItem="JWJ-6E-euP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="81m-pA-OcB"/>
+                            <constraint firstAttribute="trailing" secondItem="bl5-At-pf2" secondAttribute="trailing" constant="20" id="EjP-Kx-LKQ"/>
+                            <constraint firstItem="JWJ-6E-euP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FI2-eQ-e6E"/>
+                            <constraint firstItem="hzW-77-jzK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Rin-37-nRu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a2K-vN-vY2" secondAttribute="bottom" constant="8" id="W7Q-Nf-mUb"/>
+                            <constraint firstItem="a2K-vN-vY2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wk7-3W-Iej"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hzW-77-jzK" secondAttribute="bottom" constant="8" id="bkX-1x-igE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JWJ-6E-euP" secondAttribute="bottom" constant="50" id="d2g-QL-Ssp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bl5-At-pf2" secondAttribute="bottom" constant="8" id="wQv-ec-joK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="container" destination="JWJ-6E-euP" id="kcm-hL-pyu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="387"/>
+        </scene>
+    </scenes>
+</document>

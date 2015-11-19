@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0738FAE51BAE055B00BEDA07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FAE41BAE055B00BEDA07 /* AppDelegate.swift */; };
+		0738FAE71BAE055B00BEDA07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FAE61BAE055B00BEDA07 /* ViewController.swift */; };
+		0738FAEA1BAE055B00BEDA07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0738FAE81BAE055B00BEDA07 /* Main.storyboard */; };
+		0738FAEC1BAE055B00BEDA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0738FAEB1BAE055B00BEDA07 /* Assets.xcassets */; };
+		0738FAEF1BAE055B00BEDA07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0738FAED1BAE055B00BEDA07 /* LaunchScreen.storyboard */; };
+		0738FAFA1BAE055C00BEDA07 /* AtiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FAF91BAE055C00BEDA07 /* AtiaTests.swift */; };
+		0738FB051BAE055C00BEDA07 /* AtiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FB041BAE055C00BEDA07 /* AtiaUITests.swift */; };
+		0738FB131BAE069400BEDA07 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FB121BAE069400BEDA07 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
+		0738FB151BAE0B2E00BEDA07 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FB141BAE0B2E00BEDA07 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		0738FB171BAF0C6C00BEDA07 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FB161BAF0C6C00BEDA07 /* Enemy.swift */; settings = {ASSET_TAGS = (); }; };
+		0738FB1B1BAF180D00BEDA07 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FB1A1BAF180D00BEDA07 /* Kimara.swift */; settings = {ASSET_TAGS = (); }; };
+		0738FB1D1BAF1D9400BEDA07 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738FB1C1BAF1D9400BEDA07 /* DevilWizard.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0738FAF61BAE055C00BEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0738FAD91BAE055B00BEDA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0738FAE01BAE055B00BEDA07;
+			remoteInfo = Atia;
+		};
+		0738FB011BAE055C00BEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0738FAD91BAE055B00BEDA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0738FAE01BAE055B00BEDA07;
+			remoteInfo = Atia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0738FAE11BAE055B00BEDA07 /* Atia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0738FAE41BAE055B00BEDA07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0738FAE61BAE055B00BEDA07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0738FAE91BAE055B00BEDA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0738FAEB1BAE055B00BEDA07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0738FAEE1BAE055B00BEDA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0738FAF01BAE055B00BEDA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0738FAF51BAE055C00BEDA07 /* AtiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0738FAF91BAE055C00BEDA07 /* AtiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtiaTests.swift; sourceTree = "<group>"; };
+		0738FAFB1BAE055C00BEDA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0738FB001BAE055C00BEDA07 /* AtiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0738FB041BAE055C00BEDA07 /* AtiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtiaUITests.swift; sourceTree = "<group>"; };
+		0738FB061BAE055C00BEDA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0738FB121BAE069400BEDA07 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0738FB141BAE0B2E00BEDA07 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0738FB161BAF0C6C00BEDA07 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		0738FB1A1BAF180D00BEDA07 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		0738FB1C1BAF1D9400BEDA07 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0738FADE1BAE055B00BEDA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0738FAF21BAE055C00BEDA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0738FAFD1BAE055C00BEDA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0738FAD81BAE055B00BEDA07 = {
+			isa = PBXGroup;
+			children = (
+				0738FAE31BAE055B00BEDA07 /* Atia */,
+				0738FAF81BAE055C00BEDA07 /* AtiaTests */,
+				0738FB031BAE055C00BEDA07 /* AtiaUITests */,
+				0738FAE21BAE055B00BEDA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0738FAE21BAE055B00BEDA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0738FAE11BAE055B00BEDA07 /* Atia.app */,
+				0738FAF51BAE055C00BEDA07 /* AtiaTests.xctest */,
+				0738FB001BAE055C00BEDA07 /* AtiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0738FAE31BAE055B00BEDA07 /* Atia */ = {
+			isa = PBXGroup;
+			children = (
+				0738FAE41BAE055B00BEDA07 /* AppDelegate.swift */,
+				0738FAE61BAE055B00BEDA07 /* ViewController.swift */,
+				0738FAE81BAE055B00BEDA07 /* Main.storyboard */,
+				0738FAEB1BAE055B00BEDA07 /* Assets.xcassets */,
+				0738FAED1BAE055B00BEDA07 /* LaunchScreen.storyboard */,
+				0738FAF01BAE055B00BEDA07 /* Info.plist */,
+				0738FB121BAE069400BEDA07 /* Character.swift */,
+				0738FB141BAE0B2E00BEDA07 /* Player.swift */,
+				0738FB161BAF0C6C00BEDA07 /* Enemy.swift */,
+				0738FB1A1BAF180D00BEDA07 /* Kimara.swift */,
+				0738FB1C1BAF1D9400BEDA07 /* DevilWizard.swift */,
+			);
+			path = Atia;
+			sourceTree = "<group>";
+		};
+		0738FAF81BAE055C00BEDA07 /* AtiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0738FAF91BAE055C00BEDA07 /* AtiaTests.swift */,
+				0738FAFB1BAE055C00BEDA07 /* Info.plist */,
+			);
+			path = AtiaTests;
+			sourceTree = "<group>";
+		};
+		0738FB031BAE055C00BEDA07 /* AtiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0738FB041BAE055C00BEDA07 /* AtiaUITests.swift */,
+				0738FB061BAE055C00BEDA07 /* Info.plist */,
+			);
+			path = AtiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0738FAE01BAE055B00BEDA07 /* Atia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0738FB091BAE055C00BEDA07 /* Build configuration list for PBXNativeTarget "Atia" */;
+			buildPhases = (
+				0738FADD1BAE055B00BEDA07 /* Sources */,
+				0738FADE1BAE055B00BEDA07 /* Frameworks */,
+				0738FADF1BAE055B00BEDA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atia;
+			productName = Atia;
+			productReference = 0738FAE11BAE055B00BEDA07 /* Atia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0738FAF41BAE055C00BEDA07 /* AtiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0738FB0C1BAE055C00BEDA07 /* Build configuration list for PBXNativeTarget "AtiaTests" */;
+			buildPhases = (
+				0738FAF11BAE055C00BEDA07 /* Sources */,
+				0738FAF21BAE055C00BEDA07 /* Frameworks */,
+				0738FAF31BAE055C00BEDA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0738FAF71BAE055C00BEDA07 /* PBXTargetDependency */,
+			);
+			name = AtiaTests;
+			productName = AtiaTests;
+			productReference = 0738FAF51BAE055C00BEDA07 /* AtiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0738FAFF1BAE055C00BEDA07 /* AtiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0738FB0F1BAE055C00BEDA07 /* Build configuration list for PBXNativeTarget "AtiaUITests" */;
+			buildPhases = (
+				0738FAFC1BAE055C00BEDA07 /* Sources */,
+				0738FAFD1BAE055C00BEDA07 /* Frameworks */,
+				0738FAFE1BAE055C00BEDA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0738FB021BAE055C00BEDA07 /* PBXTargetDependency */,
+			);
+			name = AtiaUITests;
+			productName = AtiaUITests;
+			productReference = 0738FB001BAE055C00BEDA07 /* AtiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0738FAD91BAE055B00BEDA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MiraCode;
+				TargetAttributes = {
+					0738FAE01BAE055B00BEDA07 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0738FAF41BAE055C00BEDA07 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0738FAE01BAE055B00BEDA07;
+					};
+					0738FAFF1BAE055C00BEDA07 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0738FAE01BAE055B00BEDA07;
+					};
+				};
+			};
+			buildConfigurationList = 0738FADC1BAE055B00BEDA07 /* Build configuration list for PBXProject "Atia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0738FAD81BAE055B00BEDA07;
+			productRefGroup = 0738FAE21BAE055B00BEDA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0738FAE01BAE055B00BEDA07 /* Atia */,
+				0738FAF41BAE055C00BEDA07 /* AtiaTests */,
+				0738FAFF1BAE055C00BEDA07 /* AtiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0738FADF1BAE055B00BEDA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0738FAEF1BAE055B00BEDA07 /* LaunchScreen.storyboard in Resources */,
+				0738FAEC1BAE055B00BEDA07 /* Assets.xcassets in Resources */,
+				0738FAEA1BAE055B00BEDA07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0738FAF31BAE055C00BEDA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0738FAFE1BAE055C00BEDA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0738FADD1BAE055B00BEDA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0738FB151BAE0B2E00BEDA07 /* Player.swift in Sources */,
+				0738FB171BAF0C6C00BEDA07 /* Enemy.swift in Sources */,
+				0738FB1D1BAF1D9400BEDA07 /* DevilWizard.swift in Sources */,
+				0738FB1B1BAF180D00BEDA07 /* Kimara.swift in Sources */,
+				0738FB131BAE069400BEDA07 /* Character.swift in Sources */,
+				0738FAE71BAE055B00BEDA07 /* ViewController.swift in Sources */,
+				0738FAE51BAE055B00BEDA07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0738FAF11BAE055C00BEDA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0738FAFA1BAE055C00BEDA07 /* AtiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0738FAFC1BAE055C00BEDA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0738FB051BAE055C00BEDA07 /* AtiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0738FAF71BAE055C00BEDA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0738FAE01BAE055B00BEDA07 /* Atia */;
+			targetProxy = 0738FAF61BAE055C00BEDA07 /* PBXContainerItemProxy */;
+		};
+		0738FB021BAE055C00BEDA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0738FAE01BAE055B00BEDA07 /* Atia */;
+			targetProxy = 0738FB011BAE055C00BEDA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0738FAE81BAE055B00BEDA07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0738FAE91BAE055B00BEDA07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0738FAED1BAE055B00BEDA07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0738FAEE1BAE055B00BEDA07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0738FB071BAE055C00BEDA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0738FB081BAE055C00BEDA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0738FB0A1BAE055C00BEDA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Atia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miracode.Atia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0738FB0B1BAE055C00BEDA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Atia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miracode.Atia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0738FB0D1BAE055C00BEDA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AtiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miracode.AtiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atia.app/Atia";
+			};
+			name = Debug;
+		};
+		0738FB0E1BAE055C00BEDA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AtiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miracode.AtiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atia.app/Atia";
+			};
+			name = Release;
+		};
+		0738FB101BAE055C00BEDA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AtiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miracode.AtiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Atia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0738FB111BAE055C00BEDA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AtiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miracode.AtiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Atia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0738FADC1BAE055B00BEDA07 /* Build configuration list for PBXProject "Atia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0738FB071BAE055C00BEDA07 /* Debug */,
+				0738FB081BAE055C00BEDA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0738FB091BAE055C00BEDA07 /* Build configuration list for PBXNativeTarget "Atia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0738FB0A1BAE055C00BEDA07 /* Debug */,
+				0738FB0B1BAE055C00BEDA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0738FB0C1BAE055C00BEDA07 /* Build configuration list for PBXNativeTarget "AtiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0738FB0D1BAE055C00BEDA07 /* Debug */,
+				0738FB0E1BAE055C00BEDA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0738FB0F1BAE055C00BEDA07 /* Build configuration list for PBXNativeTarget "AtiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0738FB101BAE055C00BEDA07 /* Debug */,
+				0738FB111BAE055C00BEDA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0738FAD91BAE055B00BEDA07 /* Project object */;
+}

@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071E5F391BA5E59000E74DC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E5F381BA5E59000E74DC8 /* AppDelegate.swift */; };
+		071E5F3B1BA5E59000E74DC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E5F3A1BA5E59000E74DC8 /* ViewController.swift */; };
+		071E5F3E1BA5E59000E74DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071E5F3C1BA5E59000E74DC8 /* Main.storyboard */; };
+		071E5F401BA5E59000E74DC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071E5F3F1BA5E59000E74DC8 /* Images.xcassets */; };
+		071E5F431BA5E59000E74DC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071E5F411BA5E59000E74DC8 /* LaunchScreen.xib */; };
+		071E5F4F1BA5E59000E74DC8 /* MiraCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E5F4E1BA5E59000E74DC8 /* MiraCodeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		071E5F491BA5E59000E74DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071E5F2B1BA5E59000E74DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071E5F321BA5E59000E74DC8;
+			remoteInfo = MiraCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071E5F331BA5E59000E74DC8 /* MiraCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiraCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		071E5F371BA5E59000E74DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071E5F381BA5E59000E74DC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		071E5F3A1BA5E59000E74DC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		071E5F3D1BA5E59000E74DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		071E5F3F1BA5E59000E74DC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		071E5F421BA5E59000E74DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		071E5F481BA5E59000E74DC8 /* MiraCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		071E5F4D1BA5E59000E74DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071E5F4E1BA5E59000E74DC8 /* MiraCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraCodeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071E5F301BA5E59000E74DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071E5F451BA5E59000E74DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071E5F2A1BA5E59000E74DC8 = {
+			isa = PBXGroup;
+			children = (
+				071E5F351BA5E59000E74DC8 /* MiraCode */,
+				071E5F4B1BA5E59000E74DC8 /* MiraCodeTests */,
+				071E5F341BA5E59000E74DC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		071E5F341BA5E59000E74DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071E5F331BA5E59000E74DC8 /* MiraCode.app */,
+				071E5F481BA5E59000E74DC8 /* MiraCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071E5F351BA5E59000E74DC8 /* MiraCode */ = {
+			isa = PBXGroup;
+			children = (
+				071E5F381BA5E59000E74DC8 /* AppDelegate.swift */,
+				071E5F3A1BA5E59000E74DC8 /* ViewController.swift */,
+				071E5F3C1BA5E59000E74DC8 /* Main.storyboard */,
+				071E5F3F1BA5E59000E74DC8 /* Images.xcassets */,
+				071E5F411BA5E59000E74DC8 /* LaunchScreen.xib */,
+				071E5F361BA5E59000E74DC8 /* Supporting Files */,
+			);
+			path = MiraCode;
+			sourceTree = "<group>";
+		};
+		071E5F361BA5E59000E74DC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				071E5F371BA5E59000E74DC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		071E5F4B1BA5E59000E74DC8 /* MiraCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				071E5F4E1BA5E59000E74DC8 /* MiraCodeTests.swift */,
+				071E5F4C1BA5E59000E74DC8 /* Supporting Files */,
+			);
+			path = MiraCodeTests;
+			sourceTree = "<group>";
+		};
+		071E5F4C1BA5E59000E74DC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				071E5F4D1BA5E59000E74DC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071E5F321BA5E59000E74DC8 /* MiraCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071E5F521BA5E59000E74DC8 /* Build configuration list for PBXNativeTarget "MiraCode" */;
+			buildPhases = (
+				071E5F2F1BA5E59000E74DC8 /* Sources */,
+				071E5F301BA5E59000E74DC8 /* Frameworks */,
+				071E5F311BA5E59000E74DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiraCode;
+			productName = MiraCode;
+			productReference = 071E5F331BA5E59000E74DC8 /* MiraCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		071E5F471BA5E59000E74DC8 /* MiraCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071E5F551BA5E59000E74DC8 /* Build configuration list for PBXNativeTarget "MiraCodeTests" */;
+			buildPhases = (
+				071E5F441BA5E59000E74DC8 /* Sources */,
+				071E5F451BA5E59000E74DC8 /* Frameworks */,
+				071E5F461BA5E59000E74DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071E5F4A1BA5E59000E74DC8 /* PBXTargetDependency */,
+			);
+			name = MiraCodeTests;
+			productName = MiraCodeTests;
+			productReference = 071E5F481BA5E59000E74DC8 /* MiraCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071E5F2B1BA5E59000E74DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lanocast;
+				TargetAttributes = {
+					071E5F321BA5E59000E74DC8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					071E5F471BA5E59000E74DC8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 071E5F321BA5E59000E74DC8;
+					};
+				};
+			};
+			buildConfigurationList = 071E5F2E1BA5E59000E74DC8 /* Build configuration list for PBXProject "MiraCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 071E5F2A1BA5E59000E74DC8;
+			productRefGroup = 071E5F341BA5E59000E74DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071E5F321BA5E59000E74DC8 /* MiraCode */,
+				071E5F471BA5E59000E74DC8 /* MiraCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071E5F311BA5E59000E74DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E5F3E1BA5E59000E74DC8 /* Main.storyboard in Resources */,
+				071E5F431BA5E59000E74DC8 /* LaunchScreen.xib in Resources */,
+				071E5F401BA5E59000E74DC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071E5F461BA5E59000E74DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071E5F2F1BA5E59000E74DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E5F3B1BA5E59000E74DC8 /* ViewController.swift in Sources */,
+				071E5F391BA5E59000E74DC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071E5F441BA5E59000E74DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E5F4F1BA5E59000E74DC8 /* MiraCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		071E5F4A1BA5E59000E74DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071E5F321BA5E59000E74DC8 /* MiraCode */;
+			targetProxy = 071E5F491BA5E59000E74DC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		071E5F3C1BA5E59000E74DC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071E5F3D1BA5E59000E74DC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		071E5F411BA5E59000E74DC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071E5F421BA5E59000E74DC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071E5F501BA5E59000E74DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		071E5F511BA5E59000E74DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071E5F531BA5E59000E74DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiraCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		071E5F541BA5E59000E74DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiraCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		071E5F561BA5E59000E74DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiraCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiraCode.app/MiraCode";
+			};
+			name = Debug;
+		};
+		071E5F571BA5E59000E74DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiraCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiraCode.app/MiraCode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071E5F2E1BA5E59000E74DC8 /* Build configuration list for PBXProject "MiraCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071E5F501BA5E59000E74DC8 /* Debug */,
+				071E5F511BA5E59000E74DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071E5F521BA5E59000E74DC8 /* Build configuration list for PBXNativeTarget "MiraCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071E5F531BA5E59000E74DC8 /* Debug */,
+				071E5F541BA5E59000E74DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		071E5F551BA5E59000E74DC8 /* Build configuration list for PBXNativeTarget "MiraCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071E5F561BA5E59000E74DC8 /* Debug */,
+				071E5F571BA5E59000E74DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071E5F2B1BA5E59000E74DC8 /* Project object */;
+}

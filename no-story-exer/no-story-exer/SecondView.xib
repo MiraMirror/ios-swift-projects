@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondView" customModule="no_story_exer" customModuleProvider="target">
+            <connections>
+                <outlet property="secondViewLbl" destination="nr9-kD-g38" id="HHJ-Se-QZL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95Y-UA-TOM">
+                    <rect key="frame" x="248" y="285" width="105" height="30"/>
+                    <state key="normal" title="Third View"/>
+                    <connections>
+                        <action selector="goThirdView:" destination="-1" eventType="touchUpInside" id="DgV-K8-b8V"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXm-ZT-JW0">
+                    <rect key="frame" x="246" y="331" width="109" height="30"/>
+                    <state key="normal" title="Go Back to First"/>
+                    <connections>
+                        <action selector="goBackToFirst:" destination="-1" eventType="touchUpInside" id="YwH-3S-RIY"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nr9-kD-g38">
+                    <rect key="frame" x="279" y="132" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.90152774270000002" blue="0.91452661859999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="zXm-ZT-JW0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4zO-Ct-Wom"/>
+                <constraint firstItem="zXm-ZT-JW0" firstAttribute="top" secondItem="95Y-UA-TOM" secondAttribute="bottom" constant="16" id="NVy-rd-V9U"/>
+                <constraint firstItem="nr9-kD-g38" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="132" id="QrG-WY-zjy"/>
+                <constraint firstItem="95Y-UA-TOM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Urq-8K-A29"/>
+                <constraint firstItem="95Y-UA-TOM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="af8-3H-ecs"/>
+                <constraint firstItem="nr9-kD-g38" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rR3-zp-nQD"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

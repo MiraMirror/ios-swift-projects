@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E7EDE01BACDD1E00C95660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7EDDF1BACDD1E00C95660 /* AppDelegate.swift */; };
+		07E7EDE21BACDD1E00C95660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7EDE11BACDD1E00C95660 /* ViewController.swift */; };
+		07E7EDE51BACDD1E00C95660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E7EDE31BACDD1E00C95660 /* Main.storyboard */; };
+		07E7EDE71BACDD1E00C95660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E7EDE61BACDD1E00C95660 /* Assets.xcassets */; };
+		07E7EDEA1BACDD1E00C95660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E7EDE81BACDD1E00C95660 /* LaunchScreen.storyboard */; };
+		07E7EDF51BACDD1E00C95660 /* LanocastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7EDF41BACDD1E00C95660 /* LanocastTests.swift */; };
+		07E7EE001BACDD1E00C95660 /* LanocastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7EDFF1BACDD1E00C95660 /* LanocastUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E7EDF11BACDD1E00C95660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E7EDD41BACDD1E00C95660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E7EDDB1BACDD1E00C95660;
+			remoteInfo = Lanocast;
+		};
+		07E7EDFC1BACDD1E00C95660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E7EDD41BACDD1E00C95660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E7EDDB1BACDD1E00C95660;
+			remoteInfo = Lanocast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E7EDDC1BACDD1E00C95660 /* Lanocast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lanocast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E7EDDF1BACDD1E00C95660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07E7EDE11BACDD1E00C95660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07E7EDE41BACDD1E00C95660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07E7EDE61BACDD1E00C95660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07E7EDE91BACDD1E00C95660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07E7EDEB1BACDD1E00C95660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E7EDF01BACDD1E00C95660 /* LanocastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanocastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E7EDF41BACDD1E00C95660 /* LanocastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanocastTests.swift; sourceTree = "<group>"; };
+		07E7EDF61BACDD1E00C95660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E7EDFB1BACDD1E00C95660 /* LanocastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanocastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E7EDFF1BACDD1E00C95660 /* LanocastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanocastUITests.swift; sourceTree = "<group>"; };
+		07E7EE011BACDD1E00C95660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E7EDD91BACDD1E00C95660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E7EDED1BACDD1E00C95660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E7EDF81BACDD1E00C95660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E7EDD31BACDD1E00C95660 = {
+			isa = PBXGroup;
+			children = (
+				07E7EDDE1BACDD1E00C95660 /* Lanocast */,
+				07E7EDF31BACDD1E00C95660 /* LanocastTests */,
+				07E7EDFE1BACDD1E00C95660 /* LanocastUITests */,
+				07E7EDDD1BACDD1E00C95660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07E7EDDD1BACDD1E00C95660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E7EDDC1BACDD1E00C95660 /* Lanocast.app */,
+				07E7EDF01BACDD1E00C95660 /* LanocastTests.xctest */,
+				07E7EDFB1BACDD1E00C95660 /* LanocastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E7EDDE1BACDD1E00C95660 /* Lanocast */ = {
+			isa = PBXGroup;
+			children = (
+				07E7EDDF1BACDD1E00C95660 /* AppDelegate.swift */,
+				07E7EDE11BACDD1E00C95660 /* ViewController.swift */,
+				07E7EDE31BACDD1E00C95660 /* Main.storyboard */,
+				07E7EDE61BACDD1E00C95660 /* Assets.xcassets */,
+				07E7EDE81BACDD1E00C95660 /* LaunchScreen.storyboard */,
+				07E7EDEB1BACDD1E00C95660 /* Info.plist */,
+			);
+			path = Lanocast;
+			sourceTree = "<group>";
+		};
+		07E7EDF31BACDD1E00C95660 /* LanocastTests */ = {
+			isa = PBXGroup;
+			children = (
+				07E7EDF41BACDD1E00C95660 /* LanocastTests.swift */,
+				07E7EDF61BACDD1E00C95660 /* Info.plist */,
+			);
+			path = LanocastTests;
+			sourceTree = "<group>";
+		};
+		07E7EDFE1BACDD1E00C95660 /* LanocastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07E7EDFF1BACDD1E00C95660 /* LanocastUITests.swift */,
+				07E7EE011BACDD1E00C95660 /* Info.plist */,
+			);
+			path = LanocastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E7EDDB1BACDD1E00C95660 /* Lanocast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E7EE041BACDD1E00C95660 /* Build configuration list for PBXNativeTarget "Lanocast" */;
+			buildPhases = (
+				07E7EDD81BACDD1E00C95660 /* Sources */,
+				07E7EDD91BACDD1E00C95660 /* Frameworks */,
+				07E7EDDA1BACDD1E00C95660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lanocast;
+			productName = Lanocast;
+			productReference = 07E7EDDC1BACDD1E00C95660 /* Lanocast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07E7EDEF1BACDD1E00C95660 /* LanocastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E7EE071BACDD1E00C95660 /* Build configuration list for PBXNativeTarget "LanocastTests" */;
+			buildPhases = (
+				07E7EDEC1BACDD1E00C95660 /* Sources */,
+				07E7EDED1BACDD1E00C95660 /* Frameworks */,
+				07E7EDEE1BACDD1E00C95660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07E7EDF21BACDD1E00C95660 /* PBXTargetDependency */,
+			);
+			name = LanocastTests;
+			productName = LanocastTests;
+			productReference = 07E7EDF01BACDD1E00C95660 /* LanocastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07E7EDFA1BACDD1E00C95660 /* LanocastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E7EE0A1BACDD1E00C95660 /* Build configuration list for PBXNativeTarget "LanocastUITests" */;
+			buildPhases = (
+				07E7EDF71BACDD1E00C95660 /* Sources */,
+				07E7EDF81BACDD1E00C95660 /* Frameworks */,
+				07E7EDF91BACDD1E00C95660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07E7EDFD1BACDD1E00C95660 /* PBXTargetDependency */,
+			);
+			name = LanocastUITests;
+			productName = LanocastUITests;
+			productReference = 07E7EDFB1BACDD1E00C95660 /* LanocastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E7EDD41BACDD1E00C95660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lanocast;
+				TargetAttributes = {
+					07E7EDDB1BACDD1E00C95660 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					07E7EDEF1BACDD1E00C95660 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 07E7EDDB1BACDD1E00C95660;
+					};
+					07E7EDFA1BACDD1E00C95660 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 07E7EDDB1BACDD1E00C95660;
+					};
+				};
+			};
+			buildConfigurationList = 07E7EDD71BACDD1E00C95660 /* Build configuration list for PBXProject "Lanocast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07E7EDD31BACDD1E00C95660;
+			productRefGroup = 07E7EDDD1BACDD1E00C95660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E7EDDB1BACDD1E00C95660 /* Lanocast */,
+				07E7EDEF1BACDD1E00C95660 /* LanocastTests */,
+				07E7EDFA1BACDD1E00C95660 /* LanocastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E7EDDA1BACDD1E00C95660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E7EDEA1BACDD1E00C95660 /* LaunchScreen.storyboard in Resources */,
+				07E7EDE71BACDD1E00C95660 /* Assets.xcassets in Resources */,
+				07E7EDE51BACDD1E00C95660 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E7EDEE1BACDD1E00C95660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E7EDF91BACDD1E00C95660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E7EDD81BACDD1E00C95660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E7EDE21BACDD1E00C95660 /* ViewController.swift in Sources */,
+				07E7EDE01BACDD1E00C95660 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E7EDEC1BACDD1E00C95660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E7EDF51BACDD1E00C95660 /* LanocastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E7EDF71BACDD1E00C95660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E7EE001BACDD1E00C95660 /* LanocastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07E7EDF21BACDD1E00C95660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E7EDDB1BACDD1E00C95660 /* Lanocast */;
+			targetProxy = 07E7EDF11BACDD1E00C95660 /* PBXContainerItemProxy */;
+		};
+		07E7EDFD1BACDD1E00C95660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E7EDDB1BACDD1E00C95660 /* Lanocast */;
+			targetProxy = 07E7EDFC1BACDD1E00C95660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07E7EDE31BACDD1E00C95660 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E7EDE41BACDD1E00C95660 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07E7EDE81BACDD1E00C95660 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E7EDE91BACDD1E00C95660 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07E7EE021BACDD1E00C95660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07E7EE031BACDD1E00C95660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07E7EE051BACDD1E00C95660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lanocast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanocast.Lanocast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07E7EE061BACDD1E00C95660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lanocast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanocast.Lanocast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07E7EE081BACDD1E00C95660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LanocastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanocast.LanocastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lanocast.app/Lanocast";
+			};
+			name = Debug;
+		};
+		07E7EE091BACDD1E00C95660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LanocastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanocast.LanocastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lanocast.app/Lanocast";
+			};
+			name = Release;
+		};
+		07E7EE0B1BACDD1E00C95660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LanocastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanocast.LanocastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lanocast;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07E7EE0C1BACDD1E00C95660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LanocastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanocast.LanocastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lanocast;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E7EDD71BACDD1E00C95660 /* Build configuration list for PBXProject "Lanocast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E7EE021BACDD1E00C95660 /* Debug */,
+				07E7EE031BACDD1E00C95660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E7EE041BACDD1E00C95660 /* Build configuration list for PBXNativeTarget "Lanocast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E7EE051BACDD1E00C95660 /* Debug */,
+				07E7EE061BACDD1E00C95660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07E7EE071BACDD1E00C95660 /* Build configuration list for PBXNativeTarget "LanocastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E7EE081BACDD1E00C95660 /* Debug */,
+				07E7EE091BACDD1E00C95660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07E7EE0A1BACDD1E00C95660 /* Build configuration list for PBXNativeTarget "LanocastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E7EE0B1BACDD1E00C95660 /* Debug */,
+				07E7EE0C1BACDD1E00C95660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E7EDD41BACDD1E00C95660 /* Project object */;
+}
